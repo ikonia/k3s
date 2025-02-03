@@ -50,7 +50,7 @@ class k3s (
   K3s::Ensure $ensure                     = 'present',
   Enum['container', 'native'] $packaging  = 'native',
   K3s::Native_packaging $native_packaging = 'loose',
-  String[1] $version                      = '1.28.14',
+  String[1] $version                      = '1.31.5',
   String[1] $etcd_version                 = '3.5.16',
 
   String[1] $container_registry              = 'registry.k8s.io',
